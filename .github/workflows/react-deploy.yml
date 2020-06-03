@@ -38,4 +38,4 @@ jobs:
     - name: installing surge
       run: npm install --global surge
     - name: deploying 
-      run: surge ./build panacloud-boot123-camp-class2_reactapp-ahmad.surge.sh --token ${{secets.SURGE_TOKEN}}          
+      run: surge ./build panacloud-boot123-camp-class2_reactapp-ahmad.surge.sh --token ${{secrets.SURGE_TOKEN}}          
