@@ -41,3 +41,13 @@
     transform: rotate(360deg);
   }
 }
+@keyframes App-logo-move {
+  from{
+    motion: circle(0deg);
+  }
+  to{
+    motion: circle(180deg);
+  }
+  
+  
+  }
